@@ -1,5 +1,5 @@
 FROM python:3.11.4-slim
-RUM mkdir /music
+RUN mkdir /music
 WORKDIR:-music
 ADD . /music-therapy-website-in-django
 RUN pip install -r requirements.txt
